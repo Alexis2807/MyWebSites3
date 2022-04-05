@@ -1,0 +1,369 @@
+body{
+    font-family: var(--bs-font-sans-serif);
+    margin: 50px;
+}
+
+.title
+{
+    color: #196393;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.pa1,.pa2,.pa3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+
+}
+.part-1-1,.part-1-3
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 30%;
+}
+.part-1-2
+{
+    width: 40%;
+}
+.hijo1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(92, 157, 243);
+    width: 13em;
+    height: 8em;
+    background-color: #D0E4F5;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.hijo2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(92, 157, 243);
+    width: 13em;
+    height: 6em;
+    background-color: #D0E4F5;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+.hijo3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(92, 157, 243);
+    width: 13em;
+    height: 6em;
+    background-color: #D0E4F5;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-top-left-radius: 2em;
+}
+.hijo4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(92, 157, 243);
+    width: 13em;
+    height: 6em;
+    background-color: #D0E4F5;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-top-right-radius: 2em;
+}
+.numero 
+{
+    border: 4px solid #2684bd;
+    width: 3em;
+    color:#2684bd ;
+}
+textarea
+
+{
+    border: 5px solid #1C6EA4;
+    background-color: #EEEEEE;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+
+}
+.check
+{
+    width: 1em;
+    height: 1em;
+}
+.buttun1
+{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 5px;
+    background: #1C6EA4;
+    color: #FFF;
+    /* border-radius: 5px; */
+    box-shadow: inset 0 2px 5px 1px #57aae0, 1px 2px 5px 1px #999;
+    margin: 0 0 0 10px;
+
+}
+.stylesec,.colorsec,.positionsec
+{
+    display: flex;
+    justify-content: end;
+    margin-left: 20px;
+    width: 5em;
+}
+
+.p1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+}
+.p2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.p2 .solid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: 5px solid #1C6EA4;
+    background: #EEEEEE;
+}
+.p2 .dotted
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: 5px dotted #1C6EA4;
+    background: #EEEEEE;
+}
+.p2 .dashed
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: 5px dashed #1C6EA4;
+    background: #EEEEEE;
+}
+.p2 .double
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: 5px double #1C6EA4;
+    background: #EEEEEE;
+}
+.p2 .groove
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: 5px groove #1C6EA4;
+    background: #EEEEEE;
+}
+.p2 .ridge
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: 5px ridge #1C6EA4;
+    background: #EEEEEE;
+}
+.p2 .inset
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: 5px inset #1C6EA4;
+    background: #EEEEEE;
+}
+.p2 .outset
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: 5px outset #1C6EA4;
+    background: #EEEEEE;
+}
+.p2 .hidden
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: hidden;
+    background: #EEEEEE;
+}
+.p2 .none
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: none;
+    background: #EEEEEE;
+}
+.solid:hover
+{
+    background: #D0E4F5;
+}
+.dotted:hover
+{
+    background: #D0E4F5;
+}
+.dashed:hover
+{
+    background: #D0E4F5;
+}
+.double:hover
+{
+    background: #D0E4F5;
+}
+.groove:hover
+{
+    background: #D0E4F5;
+}
+.ridge:hover
+{
+    background: #D0E4F5;
+}
+.inset:hover
+{
+    background: #D0E4F5;
+}
+.outset:hover
+{
+    background: #D0E4F5;
+}
+.hidden:hover
+{
+    background: #D0E4F5;
+}
+.none:hover
+{
+    background: #D0E4F5;
+}
+.p4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+}
+.p3 .color 
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+    width: 5em;
+}
+.p4 .all
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: 5px solid #1C6EA4;
+    background: #D0E4F5;
+}
+.buttoms{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.p4 .top
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: none;
+    border-top: 5px solid #1C6EA4;
+    background: #EEEEEE;
+}
+.p4 .right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: none;
+    border-right: 5px solid #1C6EA4;
+    background: #EEEEEE;
+}
+.p4 .bottom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: none;
+    border-bottom: 5px solid #1C6EA4;
+    background: #EEEEEE;
+}
+.p4 .left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    height: 2.5em;
+    width: 6em;
+    border: none;
+    border-left: 5px solid #1C6EA4;
+    background: #EEEEEE;
+}
